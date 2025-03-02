@@ -1854,309 +1854,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:Fujitsu_FTR-LYAA005x"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 11.43 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Fujitsu_FTR-LYAA005x"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
-				(at 11.43 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
-				(at 17.78 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "6A SPST-NO Relay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Relay*Fujitsu*FTR?LYA*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fujitsu_FTR-LYAA005x_0_0"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fujitsu_FTR-LYAA005x_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -8.255 1.905)
-					(end -1.905 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -1.905) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.175 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fujitsu_FTR-LYAA005x_1_1"
-				(pin passive line
-					(at -5.08 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push_LED"
 			(pin_names
 				(offset 1.016)
@@ -2811,16 +2508,6 @@
 		)
 		(uuid "1b0d5193-b296-4412-8903-b94394c7d17b")
 	)
-	(text "From RCC\n"
-		(exclude_from_sim no)
-		(at 243.84 136.144 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "388b250b-e94e-4982-bf9c-8d21c8a60b80")
-	)
 	(junction
 		(at 24.13 60.96)
 		(diameter 0)
@@ -2898,12 +2585,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d499ea9c-a297-4eca-b67c-01e366279a42")
-	)
-	(junction
-		(at 191.77 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e98428f3-29fc-44b7-a93e-a7e54a14daba")
 	)
 	(junction
 		(at 46.99 48.26)
@@ -3026,7 +2707,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 114.3) (xy 222.25 130.81)
+			(xy 222.25 114.3) (xy 222.25 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3054,16 +2735,6 @@
 			(color 144 50 50 1)
 		)
 		(uuid "1c527f42-c391-4b74-9b98-d226b99751ee")
-	)
-	(wire
-		(pts
-			(xy 120.65 113.03) (xy 135.89 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d4dffe2-5b7d-4514-a053-999c72a4379d")
 	)
 	(wire
 		(pts
@@ -3170,16 +2841,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 137.16) (xy 243.84 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ce61dd7-5502-49b2-946f-6dbb1a5afc91")
-	)
-	(wire
-		(pts
 			(xy 170.18 93.98) (xy 170.18 85.09)
 		)
 		(stroke
@@ -3241,16 +2902,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 140.97) (xy 191.77 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4908546a-53c3-48e3-9ab6-79106c55f3c1")
-	)
-	(wire
-		(pts
 			(xy 246.38 99.06) (xy 251.46 99.06)
 		)
 		(stroke
@@ -3279,6 +2930,16 @@
 			(type default)
 		)
 		(uuid "4cb1e3ab-9a72-4fa5-8549-085207b39434")
+	)
+	(wire
+		(pts
+			(xy 120.65 93.98) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6eb154-db8c-40fb-8e46-9e3afd66b432")
 	)
 	(wire
 		(pts
@@ -3427,16 +3088,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 93.98) (xy 135.89 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b2f3d08-8733-4654-a563-31442bb65584")
-	)
-	(wire
-		(pts
 			(xy 46.99 63.5) (xy 46.99 48.26)
 		)
 		(stroke
@@ -3454,16 +3105,6 @@
 			(type default)
 		)
 		(uuid "7095abac-cece-4fcb-9c26-d9e90377451a")
-	)
-	(wire
-		(pts
-			(xy 170.18 93.98) (xy 135.89 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70adf404-bc9d-4ef1-9a9e-32b57d66cf5f")
 	)
 	(wire
 		(pts
@@ -3525,16 +3166,6 @@
 			(type default)
 		)
 		(uuid "7aabd222-6f09-4958-8707-243b24eca6fc")
-	)
-	(wire
-		(pts
-			(xy 120.65 113.03) (xy 120.65 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aabe497-f052-4a01-812b-72533f5b3d51")
 	)
 	(wire
 		(pts
@@ -3601,7 +3232,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 111.76) (xy 204.47 111.76)
+			(xy 182.88 111.76) (xy 204.47 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3631,16 +3262,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 140.97) (xy 214.63 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e6ea482-f296-4566-a9d1-bdc104915767")
-	)
-	(wire
-		(pts
 			(xy 40.64 25.4) (xy 165.1 25.4)
 		)
 		(stroke
@@ -3648,16 +3269,6 @@
 			(type default)
 		)
 		(uuid "8f47bf64-0aac-48fe-9a3f-9a1600673cab")
-	)
-	(wire
-		(pts
-			(xy 199.39 140.97) (xy 191.77 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "953c8330-cd7a-48f8-94d7-c6f628f69d55")
 	)
 	(wire
 		(pts
@@ -3734,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 130.81) (xy 214.63 130.81)
+			(xy 222.25 129.54) (xy 214.63 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3991,6 +3602,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 93.98) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18d77c3-7c84-40c9-919c-925292e1b806")
+	)
+	(wire
+		(pts
 			(xy 40.64 60.96) (xy 58.42 60.96)
 		)
 		(stroke
@@ -3999,16 +3620,6 @@
 			(color 165 65 154 1)
 		)
 		(uuid "e3bc47be-3fc7-4e61-8f87-1ffcd8ffcb73")
-	)
-	(wire
-		(pts
-			(xy 182.88 111.76) (xy 191.77 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3f0024a-afa5-423a-8b47-45a62bf39144")
 	)
 	(wire
 		(pts
@@ -4166,7 +3777,7 @@
 			(fill
 				(type none)
 			)
-			(uuid b61674b0-b585-4b29-bfa4-e0b0f6af748a)
+			(uuid e142e32f-4d29-4434-9b7d-eefbbe7964b3)
 		)
 	)
 	(symbol
@@ -5062,82 +4673,6 @@
 			(project "DriveSystem"
 				(path "/09f307af-601f-4645-b594-daaafb49fd2a"
 					(reference "Ride off2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
-		(at 207.01 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb565f70-17e6-4049-9cee-c54f343baada")
-		(property "Reference" "K1"
-			(at 207.01 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fujitsu_FTR-LYAA005x"
-			(at 207.01 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
-			(at 208.28 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
-			(at 210.82 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
-			(at 207.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "a4e460ee-6a25-4fb5-b9ee-e59d76b58c96")
-		)
-		(pin "A1"
-			(uuid "e313297a-da7c-46ad-8f87-f2108aa013da")
-		)
-		(pin "13"
-			(uuid "d4ddc19b-2cce-4e65-b345-a6ca233ec150")
-		)
-		(pin "A2"
-			(uuid "0ae16e52-d31b-4f44-97c8-6a34f8f7841b")
-		)
-		(instances
-			(project ""
-				(path "/09f307af-601f-4645-b594-daaafb49fd2a"
-					(reference "K1")
 					(unit 1)
 				)
 			)
